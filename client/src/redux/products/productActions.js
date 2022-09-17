@@ -4,7 +4,8 @@ import {
   GET_PRODUCT_LOADING,
   GET_PRODUCT_SUCCESS,
   GET_PRODUCT_ERROR,
-} from './product.type';
+} from './productType';
+
 let API = 'https://dobby-yl84.onrender.com/getPost';
 export const getProducts = (id, name) => async (dispatch, state) => {
   dispatch({ type: GET_PRODUCT_LOADING });

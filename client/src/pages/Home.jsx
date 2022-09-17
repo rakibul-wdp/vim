@@ -27,7 +27,7 @@ import {
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
-import { getProducts } from '../redux/Products/product.actions';
+import { getProducts } from '../redux/products/productActions';
 import CardComponent from "../components/card";
 
 

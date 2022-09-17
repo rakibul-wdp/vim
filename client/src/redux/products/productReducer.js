@@ -4,7 +4,7 @@ import {
   GET_PRODUCT_LOADING,
   GET_PRODUCT_SUCCESS,
 
-} from './product.type';
+} from './productType';
 let initialState = {
   loading: false,
   error: false,

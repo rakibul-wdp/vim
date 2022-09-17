@@ -13,7 +13,7 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react';
-import { loginUser } from '../redux/auth/auth.action';
+import { loginUser } from '../redux/auth/authAction';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, Navigate, NavLink } from 'react-router-dom';
 

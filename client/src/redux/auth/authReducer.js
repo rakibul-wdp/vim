@@ -3,7 +3,7 @@ import {
   AUTH_LOGIN_SUCCESS,
   AUTH_REGISTER_SUCCESS,
   AUTH_LOGOUT
-} from './auth.type';
+} from './authType';
 
 const initialState = {
   isRegistered: false,

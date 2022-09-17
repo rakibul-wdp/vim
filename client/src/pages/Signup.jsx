@@ -14,7 +14,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 import { useDispatch, useSelector } from 'react-redux';
-import { registerUser } from '../redux/auth/auth.action';
+import { registerUser } from '../redux/auth/authAction';
 import { Link, Navigate, NavLink } from 'react-router-dom';
 
 const Signup = () => {

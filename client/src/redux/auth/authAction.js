@@ -4,7 +4,8 @@ import {
   AUTH_LOGIN_SUCCESS,
   AUTH_REGISTER_SUCCESS,
   AUTH_LOGOUT
-} from './auth.type';
+} from './authType';
+
 let API = 'https://dobby-yl84.onrender.com';
 export const registerUser = (creds) => async (dispatch) => {
   try {
