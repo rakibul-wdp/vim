@@ -111,7 +111,7 @@ const Home = () => {
 
   return (
     <>
-      <Box px={4} py={32} mx="auto">
+      <Box px={4} py={10} mx="auto">
         <Box
           w={{
             base: 'full',
@@ -194,7 +194,7 @@ const Home = () => {
                 color: 'white',
               }}
             >
-              Get Started
+              Search
             </Button>
           </SimpleGrid>
           <Stack
@@ -255,7 +255,7 @@ const Home = () => {
           </ModalBody>
 
           <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={onClose}>
+            <Button variant="blue" mr={3} onClick={onClose}>
               Close
             </Button>
             <Button

@@ -68,10 +68,6 @@ const Navbar = () => {
                 md: 'inline-flex',
               }}
             >
-              <Button variant="ghost">Features</Button>
-              <Button variant="ghost">Pricing</Button>
-              <Button variant="ghost">Blog</Button>
-              <Button variant="ghost">Company</Button>
               <Button variant="ghost">Sign in</Button>
             </HStack>
             <Button

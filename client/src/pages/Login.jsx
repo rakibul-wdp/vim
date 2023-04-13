@@ -53,7 +53,7 @@ const Login = () => {
             <HStack spacing="1" justify="center">
               <Text color="muted">Don't have an account?</Text>
               <Box color={'blue.400'} fontSize="xl">
-                <NavLink colorScheme="blue" to="/signup">
+                <NavLink variant="blue" to="/signup">
                   Sign up
                 </NavLink>
               </Box>
